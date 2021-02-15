@@ -1,0 +1,80 @@
+<!--
+    - block, inline -> elements flow
+        !!! BOX: 4 main direction:
+        *margin, border, padding
+        top, right, bottom, left
+
+    -global css
+    - id, class, tag
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Global CSS | Emoticon</title>
+        <style>
+            #smile{
+                background-color: orange;
+
+                width: 200px;
+                height: 200px;
+
+                margin-top: 50px;
+                margin-left: 100px;
+
+                border-top: 40px solid brown;
+            }
+
+            body{
+                background-color: #333;
+                padding-left: 300px;
+                padding-top: 100px;
+            }
+
+            .eyes{
+                /*background-color: antiquewhite;*/
+                text-align: center;
+                font-size: 36px;
+                padding: 18px;
+                color: grey;
+            }
+            .nose{
+                /*background-color: aqua;*/
+                text-align: center;
+                font-size: 36px;
+                color: brown;
+            }
+            .mouth{
+                text-align: center;
+                font-size: 36px;
+                color: red;
+
+            }
+            .eye{
+                border-top: 7px solid brown;
+                padding: 7px;
+                background-color: white;
+                border-radius: 20px
+                
+            }
+        </style>
+    </head>
+    <body>
+        
+        <div id="smile">
+            <div class="eyes">
+               <span class="eye">∪</span> <span class="eye">∪</span> <!--alegerea segmenutlui din text-->
+            </div>
+            <div class="nose">
+                ∆
+            </div>
+
+            <div class="mouth">
+                ⌣
+            </div>
+           
+        </div>
+
+    </body>
+</html>
